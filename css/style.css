@@ -43,6 +43,10 @@ img {
 .header-main nav {
   display: flex;
   gap: 76px;
+  align-items: center;
+}
+.header-main .logo {
+  margin-right: 76px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -61,6 +65,7 @@ img {
 .nav-ul {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-ul-a {
   position: relative;
@@ -114,6 +119,7 @@ address ul {
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero-h-main {
@@ -125,6 +131,10 @@ address ul {
   margin: 0 auto;
 }
 .hero-button {
+  min-width: 169px;
+  display: block;
+  height: 56px;
+  margin: auto;
   margin-top: 48px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -246,7 +256,7 @@ address ul {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  width: calc((100%-24px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .card {
   border-bottom: 1px solid #e7e9fc;
@@ -273,13 +283,15 @@ address ul {
 .footer {
   background-color: #2e2f42;
 }
-
+.footer .logo {
+  margin-bottom: 16px;
+}
 .footer-span {
   color: #f4f4fd;
+  padding: 100px 0;
 }
 
 .footer-p {
-  margin-top: 16px;
   max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
