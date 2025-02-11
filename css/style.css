@@ -65,9 +65,9 @@ img {
 .nav-ul {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-ul-a {
+  padding: 24px 0;
   position: relative;
   font-weight: 500;
   font-size: 16px;
