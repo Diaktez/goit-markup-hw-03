@@ -65,6 +65,7 @@ img {
 .nav-ul {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-ul-a {
   position: relative;
@@ -251,16 +252,17 @@ address ul {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.portfolio-li-ul {
-  width: calc((100%-48px) / 3);
-}
+
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
 }
-.card {
+.portfolio-ul li {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio .card {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
